@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a href="#" class="logo">Alesia Moller</a>
+      <ul class="menu">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>¡Hola, soy Alesia!</h1>
+      <p> Me apasiona la música y la cultura
+                <br> Emprender me hizo ser flexible y autodidacta
+        </p>
+      <a href="#proyectos" class="btn-primary">Ver Proyectos</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="proyectos" class="grid-proyectos container">
+      <article class="card">
+        <img src="imagenes/Captura de pantalla 2024-02-11 003301.png" alt="Proyecto 1"/>
+        <h2>Ta'Lindo </h2>
+        <p><strong>Creación original de indumentaria relacionada a la cultura afrouruguaya, accesorios para instrumentos musicales, etc. </strong></p>
+      </article>
+
+        <article class="card">
+        <img src="imagenes/Captura de pantalla 2025-07-21 214220.png"  alt="Proyecto 2"/>
+        <h2>La Tangó </h2>
+        <p><strong>Visión global de la comparsa, creación de logos, estampas, banderas, etc. </strong></p>
+      </article>
+    </section>
+
+<section id="sobre-mi" class="sobre-mi container">
+      <h2>Sobre mí</h2>
+<!-- Educación -->
+ <article class=" educacion">
+ <h2 id="edu">Educación</h2>
+ <table>
+    <tr>
+    <th>Título</th>
+    <th>Entidad</th>
+    <th>Promoción</th>
+  </tr>
+  <tr>
+    <td>Licenciatura en Comunicaciión</td>
+    <td>FIC</td>
+    <td>2022</td>
+  </tr>
+  <tr>
+    <td>Desarrollo web</td>
+    <td>Plan Ceibal (Jóvenes a programar)</td>
+    <td>Actualidad</td>
+  </tr>
+ </table>
+ </article>
+
+ <article class="skills">
+         <h2 id="skills">Skills</h2>
+         <table border="0">
+            <tr>
+                <th>Desarrollo Web: </th>
+                <th>Metricas</th>
+                <th>Gestión</th>
+                <th>Emprendimiento</th>
+                <th>Diseño</th>
+                <th>Marketing</th>
+            </tr>
+            <tr>
+                <td>HTML5, JavaScript, CSS.</td>
+                <td>Análisis de datos, SQL </td>
+                <td>Organización de eventos, gestión de equipos, etc.</td>
+                <td>Gestión de empresas</td>
+                <td>Ilustrator, Photoshop, Canva, Inskape</td>
+                <td>Redes sociales, Google ADS.</td>
+            </tr>
+        </table>
+           
+    </article>
+</section>
+
+  <section>
+ <!-- contactar -->
+<footer id="contacto" class="site-footer">
+  <form action="php" method="post"> 
+   <h2 id="contact"> Contactar </h2>
+    <p>Para: <input type="text" name="tema" required> </p>
+    <p>Tematica: <select id="tema" name="opcion">
+    <option value="consulta">Consulta </option>
+    <option value="propuesta">Propuesta </option>
+    <option value="otro"> Otro </option> </select>   
+    </p>
+    <p>Asunto: <input type="text" name="asunto" required> </p>
+    <p>Cuerpo: <input type="text" name="cuerpo" required> </p>
+    <p><input type="submit" value="Enviar"></p>
+  </form>
+  <hr>
+    <div class="container">
+      <ul>
+    <li><a href="https://github.com/Alesia-Moller" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+    <li><a href="https://www.instagram.com/_alesia_moller/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+    <li><a href="https://www.linkedin.com/in/alesia-moller-604509195/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+  </ul>
+  <p>© 2025</p>
+    </div>
+  </footer>
+</body>
+</html>
